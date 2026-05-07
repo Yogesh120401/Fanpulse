@@ -19,9 +19,9 @@ logger = logging.getLogger(__name__)
 
 class TwitterHandler:
     def __init__(self):
-        self.email    = "gokul2004330@gmail.com "
-        self.username = "guestgoks2552"
-        self.password = "Gokul&raj2552"
+        self.email    = "ENTER_YOUR_EMAIL"
+        self.username = "ENTER_YOUR_USERNAME"
+        self.password = "ENTER_YOUR_PASSWORD"
         self.driver   = None
 
     def _build_driver(self):
